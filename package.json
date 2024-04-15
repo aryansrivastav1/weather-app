@@ -1,0 +1,21 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "The weather app showcases the usage of API called Weather by API Ninjas which fetches weather forecast details on the website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "weather-app"
+  },
+  "keywords": [
+    "weather",
+    "app",
+    "website",
+    "forecast"
+  ],
+  "author": "Aryan Sapiens",
+  "license": "ISC"
+}
