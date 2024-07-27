@@ -1,7 +1,7 @@
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': '3026cd15c7mshd3981dfee4bdbb8p1ffc86jsnb82b3139a881',
+        'X-RapidAPI-Key': 'dfd5b85a93msh04f79e594c10a3ep13f32bjsnf2c24bef0a37',
         'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
     }
 };
@@ -122,12 +122,5 @@ submit.addEventListener("click", (e) => {
     e.preventDefault()
     getWeather(city.value)
 })
-
-try {
-	const response = await fetch(url, options);
-	const result = await response.text();
-	console.log(result);
-} catch (error) {
-	console.error(error);
 
 getWeather("New Delhi");
